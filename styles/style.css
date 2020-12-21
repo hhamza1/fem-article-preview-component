@@ -66,17 +66,17 @@ img{
 .article-details{
     display: grid;
     grid-auto-flow: column;
-    grid-template-columns: 75px 1fr;
+    grid-template-columns: 65px 1fr;
 }
 
-.article-details img {
+.article-details > img {
     width: 45px;
     height: 45px;
     border-radius: 50%;
 }
 
-.article-info h4 {
-    padding-bottom: 9px;
+.article-info h5 {
+    padding: 5px 0 9px 0;
     
 }
 
@@ -85,7 +85,15 @@ img{
 }
 
 .share-btn{
-    justify-items: flex-end;
-    width: max-content;
+    border: 0;
+    background: hsl(210, 46%, 95%);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
 }
 
+.share-btn > img {
+    width: 42.85%;
+    padding: 11px 10px;
+}
