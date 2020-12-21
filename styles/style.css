@@ -1,2 +1,91 @@
+body{
+    background:hsl(210, 46%, 95%);
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    padding: 0;
+    color: hsl(217, 19%, 35%);
+}
+
+p, a {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: hsl(214, 17%, 51%);
+}
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+
+
+.container {
+    background-color: #fff;
+    border: 0;
+    border-radius: 10px;
+    margin: 75px 35px;
+
+}
+
+img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.article {
+    padding: 20px 33px;
+}
+
+.article > h3 {
+    padding: 20px 0;
+}
+
+.article > p {
+    font-weight: 500;
+    padding-bottom: 35px;
+}
+
+
+
+
+.article-details{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 75px 1fr;
+}
+
+.article-details img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.article-info h4 {
+    padding-bottom: 9px;
+    
+}
+
+.article-info > p {
+    font-size: 11px;
+}
+
+.share-btn{
+    justify-items: flex-end;
+    width: max-content;
+}
+
