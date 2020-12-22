@@ -146,6 +146,7 @@ a, a:visited, a:active {
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
+
 }
 
 
@@ -154,12 +155,14 @@ a, a:visited, a:active {
 @media only screen and (min-width: 1024px) {
     body {
         box-sizing: border-box;
+        margin: 135px 250px;
+        
     }
     .container{
         display: grid;
         grid-auto-flow: column;
         align-items: center;
-        margin: 120px 250px;
+        
     }
 
     .drawers {
@@ -174,11 +177,11 @@ a, a:visited, a:active {
     }
     
     .article > h3 {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
 
     .article > p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .article-details {
